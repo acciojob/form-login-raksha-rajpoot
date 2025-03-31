@@ -11,5 +11,7 @@ function getFormvalue(event) {
             
             alert(`${firstName} ${lastName}`.trim());
         }
-        
-        document.getElementById("nameForm").addEventListener("submit", getFormvalue);
+        document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("nameForm").addEventListener("submit", getFormvalue);
+});
+
