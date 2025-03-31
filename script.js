@@ -11,10 +11,10 @@ function getFormvalue(event) {
             
             alert(`${firstName} ${lastName}`.trim());
         }
-      document.addEventListener("DOMContentLoaded", function () {
-            const form = document.getElementById("nameForm");
-            if (form) {
-                form.addEventListener("submit", getFormvalue);
-            }
-        });
+      // document.addEventListener("DOMContentLoaded", function () {
+      //       const form = document.getElementById("nameForm");
+      //       if (form) {
+      //           form.addEventListener("submit", getFormvalue);
+      //       }
+      //   });
 
