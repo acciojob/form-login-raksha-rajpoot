@@ -4,12 +4,12 @@ function getFormvalue(event) {
             const firstName = document.getElementById("fname").value.trim();
             const lastName = document.getElementById("lname").value.trim();
             
-            if (!First name && !Last name) {
+            if (!Firstname && !Lastname) {
                 alert("Please enter your name.");
                 return;
             }
             
-            alert(`${First name} ${Last name}`.trim());
+            alert(`${Firstname} ${Lastname}`.trim());
         }
      
 
